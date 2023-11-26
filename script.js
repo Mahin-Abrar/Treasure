@@ -1,8 +1,7 @@
-function checkInput() {
+function checkInput(){
 let userInput = document.getElementById('userInput').value.toLowerCase();
-let h1Element = document.querySelector('h1');
-let inputField = document.getElementById('userInput');
-
+let h1Element= document.querySelector('h1');
+let inputField =document.getElementById('userInput');
     if (h1Element.textContent === 'Which path do you want to take? Left or right.') {
         if (userInput === 'right') {
             h1Element.textContent = 'U fell into a hole. Game Over!';
@@ -20,7 +19,6 @@ let inputField = document.getElementById('userInput');
             h1Element.textContent = 'Game Over!';
         }
     } else if (h1Element.textContent === 'Choose the door between red, yellow, blue.') {
-     
         if (userInput === 'yellow') {
             h1Element.textContent = 'Congratulations! You win!';
         } else if (userInput === 'red') {

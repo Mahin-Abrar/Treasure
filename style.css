@@ -1,10 +1,13 @@
-/* backgroundImage{
-width: 100%;
-} */
+
 h1{
     position:absolute;    
-    top: 50%;
+    top: 30%;
   left: 50%;
+}
+.submit{
+  position:absolute;
+  top: 60%;
+  left: 74%;
 }
 .input{
     position: absolute;
@@ -12,10 +15,11 @@ h1{
   left: 40%;
 }
 .background{
-    width: 80%;
+    width: 60%;
     height: 100vh;
 }
 body{
     margin: 0;
     overflow: hidden;
+    
 }
